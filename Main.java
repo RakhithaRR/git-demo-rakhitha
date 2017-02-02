@@ -18,6 +18,10 @@ public class Main {
 			answer = a + b;
 			System.out.println("Answer is "+answer);
 		}
+		else if("-".equals(operation)){
+			answer = a - b;
+			System.out.println("Answer is "+answer);
+		}
 		else{
 			System.out.println("Unsupported operation");
 		}
